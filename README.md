@@ -5,12 +5,14 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 ## Table of Contents
 
 * Translation
-    * [Glosbe](#glosbe_api)
-    * [MyMemory](#mymemory_api)
-    * [WordReference](#wordreference_api)
+    * [Glosbe](#glosbe-api)
+    * [IATE](#iate)
+    * [MyMemory](#mymemory-api)
+    * [WordReference](#wordreference-api)
 
+## TRANSLATION APIS
 
-## Glosbe API
+### Glosbe API
 
 `$ coffee ./translation/glosbe-webtranslate.coffee <WORD>`
 
@@ -18,8 +20,16 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 
 [Reference](https://glosbe.com/a-api)
 
+### IATE
 
-## MyMemory API
+IATE: InterActive Terminology for Europe
+
+Experimental: This is not an actual API, but rather a scraping of the results page using `cheerio`. 
+Still under development.
+
+[Reference](http://iate.europa.eu/SearchByQueryLoad.do?method=load)
+
+### MyMemory API
 
 `$ coffee ./translation/mymemory.coffee <WORD>`
 
@@ -28,7 +38,7 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 [Reference](http://mymemory.translated.net/doc/spec.php)
 
 
-## WordReference API
+### WordReference API
 
 `$ coffee ./translation/wordreference.coffee <WORD>`
 
