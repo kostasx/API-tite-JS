@@ -1,5 +1,5 @@
 # API-tite JS
-Consuming APIs using JavaScript 
+Consuming APIs using JavaScript (originally written in CoffeeScript) 
 
 ## [Glosbe API](https://glosbe.com/a-api)
 
