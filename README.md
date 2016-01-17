@@ -10,6 +10,9 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 * Portfolio
     * [Flickr](#flickr)
 
+* Network & Telecommunications
+    * [OTE WhitePages](#ote-whitepages)
+
 * Translation
     * [Glosbe](#glosbe-api)
     * [IATE](#iate)
@@ -47,6 +50,37 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 `$ node ./portfolio/flickr.js keyword`
 
 [Reference](https://www.flickr.com/services/api/)
+
+--------------------------------------------------
+
+## NETWORK & TELECOMMUNICATIONS
+
+### OTE WHITEPAGES
+
+Description: Get contact information from greek whitepages service (OTE). 
+Not an API consumer, but it uses `cheerio` to scrape the results [web page](http://www.11888.gr/search/goodys/).
+
+```bash
+$ coffee ./network/ote.cofffee GOODYS
+```
+
+Outputs:
+`
+NAME: GOODYS
+TELEPHONE: 2310912163
+ADDRESS: ΛΑΜΠΡΑΚΗ ΓΡΗΓ. 144 Θεσσαλονίκη [Δήμος] Θεσσαλονίκη 54351
+`
+
+```bash
+$ coffee ./network/ote.cofffee 2310912163
+```
+
+Outputs:
+`
+NAME: GOODYS
+TELEPHONE: 2310912163
+ADDRESS: ΛΑΜΠΡΑΚΗ ΓΡΗΓ. 144 Θεσσαλονίκη [Δήμος] Θεσσαλονίκη 54351
+`
 
 --------------------------------------------------
 
