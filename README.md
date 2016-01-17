@@ -6,6 +6,7 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 
 * Music
     * [EchoNest](#echonest)
+    * [TuneFind](#tunefind)
 
 * Portfolio
     * [Flickr](#flickr)
@@ -38,6 +39,14 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 `$ node ./music/echonest.js`
 
 [Reference](http://developer.echonest.com/docs/v4)
+
+### TuneFind
+
+`$ coffee ./music/tunefind.coffee "Modern Family"`
+
+`$ node ./music/tunefind.js "Modern Family"`
+
+[Reference](http://www.tunefind.com/api)
 
 --------------------------------------------------
 
