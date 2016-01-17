@@ -61,7 +61,13 @@ Description: Get contact information from greek whitepages service (OTE).
 Not an API consumer, but it uses `cheerio` to scrape the results [web page](http://www.11888.gr/search/goodys/).
 
 ```bash
-$ coffee ./network/ote.cofffee GOODYS
+$ coffee ./network/ote.coffee GOODYS
+```
+
+OR
+
+```bash
+$ node ./network/ote.js GOODYS
 ```
 
 Outputs:
@@ -72,7 +78,13 @@ ADDRESS: ΛΑΜΠΡΑΚΗ ΓΡΗΓ. 144 Θεσσαλονίκη [Δήμος] Θε
 ```
 
 ```bash
-$ coffee ./network/ote.cofffee 2310912163
+$ coffee ./network/ote.coffee 2310912163
+```
+
+OR
+
+```bash
+$ node ./network/ote.js 2310912163
 ```
 
 Outputs:
