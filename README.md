@@ -4,11 +4,30 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 
 ## Table of Contents
 
+* Music
+    * [EchoNest](#echonest)
+
 * Translation
     * [Glosbe](#glosbe-api)
     * [IATE](#iate)
     * [MyMemory](#mymemory-api)
     * [WordReference](#wordreference-api)
+
+--------------------------------------------------
+
+## MUSIC APIS
+
+### EchoNest
+
+**NOTE: See source code for provided methods.**
+
+`$ coffee ./music/echonest.coffee`
+
+`$ node ./music/echonest.js`
+
+[Reference](http://developer.echonest.com/docs/v4)
+
+--------------------------------------------------
 
 ## TRANSLATION APIS
 

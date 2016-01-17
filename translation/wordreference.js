@@ -15,7 +15,7 @@ ok = function() {
   return Object.keys.apply(Object, arguments);
 };
 
-API_KEY = "<YOU_API_KEY>";
+API_KEY = "<YOUR_API_KEY>";
 
 word = process.argv.slice(2)[0];
 

@@ -15,7 +15,7 @@ ok  = ()-> Object.keys.apply( Object, arguments )
 
 # OPTIONS
 
-API_KEY   = "<YOU_API_KEY>"
+API_KEY   = "<YOUR_API_KEY>"
 word      = process.argv.slice(2)[0];
 lang_from = "en"       # LANGUAGE TO TRANSLATE FROM (= English)
 lang_to   = "gr"       # LANGUAGE TO TRANSLATE TO (= Greek)
