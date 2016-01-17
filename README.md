@@ -18,7 +18,7 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
     * [Glosbe](#glosbe-api)
     * [IATE](#iate)
     * [MyMemory](#mymemory-api)
-    * [Wordnik](#wordnik)
+    * [Wordnik](#wordnik-api)
     * [WordReference](#wordreference-api)
 
 --------------------------------------------------
