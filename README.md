@@ -34,17 +34,25 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 
 **NOTE: See source code for provided methods.**
 
-`$ coffee ./music/echonest.coffee`
+```bash
+$ coffee ./music/echonest.coffee
+```
 
-`$ node ./music/echonest.js`
+```bash
+$ node ./music/echonest.js
+```
 
 [Reference](http://developer.echonest.com/docs/v4)
 
 ### TuneFind
 
-`$ coffee ./music/tunefind.coffee "Modern Family"`
+```bash
+$ coffee ./music/tunefind.coffee "Modern Family"
+```
 
-`$ node ./music/tunefind.js "Modern Family"`
+```bash
+$ node ./music/tunefind.js "Modern Family"
+```
 
 [Reference](http://www.tunefind.com/api)
 
