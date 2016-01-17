@@ -7,11 +7,20 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 * Music
     * [EchoNest](#echonest)
 
+* Portfolio
+    * [Flickr](#flickr)
+
 * Translation
     * [Glosbe](#glosbe-api)
     * [IATE](#iate)
     * [MyMemory](#mymemory-api)
     * [WordReference](#wordreference-api)
+
+--------------------------------------------------
+
+## PREREQUISITES
+
+`npm install`
 
 --------------------------------------------------
 
@@ -26,6 +35,18 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 `$ node ./music/echonest.js`
 
 [Reference](http://developer.echonest.com/docs/v4)
+
+--------------------------------------------------
+
+## PORTFOLIO APIS
+
+### FLICKR
+
+`$ coffee ./portfolio/flickr.coffee keyword`
+
+`$ node ./portfolio/flickr.js keyword`
+
+[Reference](https://www.flickr.com/services/api/)
 
 --------------------------------------------------
 
