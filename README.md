@@ -4,7 +4,7 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 
 ## Table of Contents
 
-* [Translation]
+* Translation
     * [Glosbe](#glosbe_api)
     * [MyMemory](#mymemory_api)
 
