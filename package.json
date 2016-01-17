@@ -1,0 +1,24 @@
+{
+  "name": "api-tite",
+  "version": "0.1.0",
+  "description": "Consuming APIs using CoffeeScript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kostasx/API-tite-JS.git"
+  },
+  "author": "KostasX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kostasx/API-tite-JS/issues"
+  },
+  "homepage": "https://github.com/kostasx/API-tite-JS#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "got": "^6.1.0",
+    "purdy": "^1.6.0"
+  }
+}
