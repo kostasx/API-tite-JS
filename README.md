@@ -7,6 +7,7 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 * Translation
     * [Glosbe](#glosbe_api)
     * [MyMemory](#mymemory_api)
+    * [WordReference](#wordreference_api)
 
 
 ## [Glosbe API](https://glosbe.com/a-api)
@@ -17,3 +18,8 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 ## [MyMemory API](http://mymemory.translated.net/doc/spec.php)
 
 `$ coffee ./translation/mymemory.coffee <WORD>`
+
+
+## [WordReference API](http://www.wordreference.com/docs/api.aspx)
+
+`$ coffee ./translation/wordreference.coffee <WORD>`
