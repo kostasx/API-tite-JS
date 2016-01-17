@@ -65,22 +65,22 @@ $ coffee ./network/ote.cofffee GOODYS
 ```
 
 Outputs:
-`
+```
 NAME: GOODYS
 TELEPHONE: 2310912163
 ADDRESS: ΛΑΜΠΡΑΚΗ ΓΡΗΓ. 144 Θεσσαλονίκη [Δήμος] Θεσσαλονίκη 54351
-`
+```
 
 ```bash
 $ coffee ./network/ote.cofffee 2310912163
 ```
 
 Outputs:
-`
+```
 NAME: GOODYS
 TELEPHONE: 2310912163
 ADDRESS: ΛΑΜΠΡΑΚΗ ΓΡΗΓ. 144 Θεσσαλονίκη [Δήμος] Θεσσαλονίκη 54351
-`
+```
 
 --------------------------------------------------
 
