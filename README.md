@@ -18,6 +18,7 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
     * [Glosbe](#glosbe-api)
     * [IATE](#iate)
     * [MyMemory](#mymemory-api)
+    * [Wordnik](#wordnik)
     * [WordReference](#wordreference-api)
 
 --------------------------------------------------
@@ -140,11 +141,26 @@ Still under development.
 
 [Reference](http://mymemory.translated.net/doc/spec.php)
 
+### Wordnik API
+
+```bash
+$ coffee ./translation/wordnik.coffee <WORD>
+```
+
+```bash
+$ node ./translation/wordnik.js <WORD>
+```
+
+[Reference](http://developer.wordnik.com/docs.html)
 
 ### WordReference API
 
-`$ coffee ./translation/wordreference.coffee <WORD>`
+```bash
+$ coffee ./translation/wordreference.coffee <WORD>
+```
 
-`$ node ./translation/wordreference.js <WORD>`
+```bash
+$ node ./translation/wordreference.js <WORD>
+```
 
 [Reference](http://www.wordreference.com/docs/api.aspx)
