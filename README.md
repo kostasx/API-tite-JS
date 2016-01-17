@@ -10,16 +10,25 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
     * [WordReference](#wordreference_api)
 
 
-## [Glosbe API](https://glosbe.com/a-api)
+## Glosbe API
 
 `$ coffee ./translation/glosbe-webtranslate.coffee <WORD>`
+`$ node ./translation/glosbe-webtranslate.js <WORD>`
+
+[Reference](https://glosbe.com/a-api)
 
 
-## [MyMemory API](http://mymemory.translated.net/doc/spec.php)
+## MyMemory API
 
 `$ coffee ./translation/mymemory.coffee <WORD>`
+`$ node ./translation/mymemory.js <WORD>`
+
+[Reference](http://mymemory.translated.net/doc/spec.php)
 
 
-## [WordReference API](http://www.wordreference.com/docs/api.aspx)
+## WordReference API
 
 `$ coffee ./translation/wordreference.coffee <WORD>`
+`$ node ./translation/wordreference.js <WORD>`
+
+[Reference](http://www.wordreference.com/docs/api.aspx)
