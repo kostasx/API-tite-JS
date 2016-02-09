@@ -12,6 +12,7 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
     * [Flickr](#flickr)
 
 * Network & Telecommunications
+    * [SMSAPI.com](https://www.smsapi.com/)
     * [OTE WhitePages](#ote-whitepages)
 
 * Translation
@@ -72,6 +73,20 @@ $ node ./music/tunefind.js "Modern Family"
 --------------------------------------------------
 
 ## NETWORK & TELECOMMUNICATIONS
+
+### SMSAPI.com
+
+Description: Send SMS
+
+```bash
+$ coffee ./network/smsapi.coffee
+```
+
+OR
+
+```bash
+$ node ./network/smsapi.js GOODYS
+```
 
 ### OTE WHITEPAGES
 
