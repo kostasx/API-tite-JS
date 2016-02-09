@@ -85,7 +85,7 @@ $ coffee ./network/smsapi.coffee
 OR
 
 ```bash
-$ node ./network/smsapi.js GOODYS
+$ node ./network/smsapi.js
 ```
 
 ### OTE WHITEPAGES
