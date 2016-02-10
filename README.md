@@ -36,6 +36,8 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 
 **NOTE: See source code for provided methods.**
 
+(See source for helper methods)
+
 ```bash
 $ coffee ./music/echonest.coffee
 ```
