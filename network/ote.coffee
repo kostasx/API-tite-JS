@@ -10,6 +10,7 @@ ok  = ()-> Object.keys.apply( Object, arguments )
 # OPTIONS
 
 api_url = 'http://11888.ote.gr/web/guest/list-names?_wpType='
+# api_url = 'http://11888.ote.gr/web/guest/white-pages/search?who=NUMBER&where='
 
 sendRequest = (query) ->
   theQueryString = undefined

@@ -6,7 +6,7 @@ crypto = require "crypto"
 
 # OPTIONS
 
-API_URL  = "https://api.smsapi.com/sms.do"
+API_URL  = "https://api.smsapi.com/"
 username = "<USERNAME>"
 password = "<PASSWORD>"
 sender   = "<SENDER>"
@@ -17,23 +17,37 @@ sender   = "<SENDER>"
 # password = JSON.parse(config).smsapi.password
 # sender   = JSON.parse(config).smsapi.sender
 
-got.post( API_URL, {
+# HASH PASSWORD
+password = crypto.createHash('md5').update(password).digest('hex')
 
-  body:
+# API ENDPOINTS METHODS
 
-    username : username                   
-    password : crypto.createHash('md5').update(password).digest('hex')
-    to       : '<RECIPIENT_MOBILE>'          
-    from     : sender            
-    message  : "What's up Doc?"
+getBalance = (options)->
 
-})
-.then (response)->
+  return got.get( API_URL + "user.do?username=#{username}&password=#{password}&credits=1" )
+
+sendSMS = (options)->
+
+  return got.post( API_URL + "sms.do", {
+
+    body:
+
+      username : username                   
+      password : password
+      to       : options.to          
+      from     : sender            
+      message  : options.msg
+
+  })
+
+getBalance().then (response)->
+
+  console.log response.body
+
+sendSMS({ to: "<RECIPIENT>", msg: "<YOUR MESSAGE>" }).then (response)->
 
   # response.body.match /OK:/
   console.log response.body
 
-.catch (e)->
-
-  console.log "Error: #{e}"
+.catch (e)-> console.log "Error: #{e}"
 
