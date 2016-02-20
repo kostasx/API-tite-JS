@@ -5,10 +5,10 @@ username    = 'EVAL_VAAS'
 password    = '<PASSWORD>'
 
 # IGNORE THESE COMMENTED LINES. THEY ARE INTENTED FOR LOCAL TESTING ONLY
-# config   = require("fs").readFileSync("../_RAW/API_KEYS.json", "utf8"); 
-# username = JSON.parse(config).acapela.username
-# password = JSON.parse(config).acapela.password
-# sender   = JSON.parse(config).acapela.sender
+# config      = require("fs").readFileSync("../_RAW/API_KEYS.json", "utf8") 
+# application = JSON.parse(config).acapela.application 
+# username    = JSON.parse(config).acapela.username
+# password    = JSON.parse(config).acapela.password
 
 API_URL     = 'http://vaas.acapela-group.com/Services/Synthesizer'
 
