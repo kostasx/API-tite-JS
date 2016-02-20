@@ -5,7 +5,7 @@ Consuming APIs using JavaScript (originally written in CoffeeScript)
 ## Table of Contents
 
 * Data
-    *[Acapela Voice-as-a-Service](#acapela-vaas)
+    * [Acapela Voice-As-A-Service](#acapela-vaas)
 
 * Music
     * [EchoNest](#echonest)
