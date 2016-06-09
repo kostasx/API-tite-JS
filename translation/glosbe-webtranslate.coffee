@@ -12,22 +12,20 @@ Purdy     = require "purdy"
 
 # HELPERS
 
-log = ()-> console.log.apply( console, arguments )
-ok  = ()-> Object.keys.apply( Object, arguments )
+log = -> console.log.apply( console, arguments )
+ok  = -> Object.keys.apply( Object, arguments )
 
 # OPTIONS
 
 word      = process.argv.slice(2)[0];
 tm        = "tm=true&"  # INCLUDE EXAMPLES
-lang_from = "en"        # LANGUAGE TO TRANSLATE FROM (= English)
-lang_to   = "ell"       # LANGUAGE TO TRANSLATE TO (= Greek)
+lang_from = "de"        # LANGUAGE TO TRANSLATE FROM (= German)
+lang_to   = "en"        # LANGUAGE TO TRANSLATE TO (= English)
 api_url   = "https://glosbe.com/gapi/translate?#{tm}from=#{lang_from}&dest=#{lang_to}&format=json&phrase=#{word}&pretty=true&tm=false"
 
 # MAIN APP
 
-got(api_url,{
-    json: true
-})
+got(api_url,{ json: true })
 .then((response)->
 
     response = response.body
@@ -38,8 +36,4 @@ got(api_url,{
         log Purdy.stringify(result)
     )
 
-).catch((error)->
-
-    log "Error:", error
-
-) 
+).catch((error)-> log "Error:", error ) 

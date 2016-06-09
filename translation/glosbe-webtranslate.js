@@ -19,9 +19,9 @@ word = process.argv.slice(2)[0];
 
 tm = "tm=true&";
 
-lang_from = "en";
+lang_from = "de";
 
-lang_to = "ell";
+lang_to = "en";
 
 api_url = "https://glosbe.com/gapi/translate?" + tm + "from=" + lang_from + "&dest=" + lang_to + "&format=json&phrase=" + word + "&pretty=true&tm=false";
 
