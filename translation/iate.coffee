@@ -11,8 +11,8 @@ cheerio   = require "cheerio"
 
 # HELPERS
 
-log = ()-> console.log.apply( console, arguments )
-ok  = ()-> Object.keys.apply( Object, arguments )
+log = -> console.log.apply( console, arguments )
+ok  = -> Object.keys.apply( Object, arguments )
 
 # OPTIONS
 
@@ -34,9 +34,7 @@ data =
     "domain"          : "0" 
     "typeOfSearch"    : "s" 
 
-got.post(api_url,{
-    body: data
-})
+got.post(api_url,{ body: data })
 .then((response)->
 
     # match('/No matching/i', response)
@@ -46,8 +44,4 @@ got.post(api_url,{
         log $(@).find("tr").eq(2).find("td div.termRecord").text().trim()
     )
 
-).catch((error)->
-
-    log "Error:", error
-
-)
+).catch((error)-> log "Error:", error )
