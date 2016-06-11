@@ -51,3 +51,18 @@ sendSMS({ to: "<RECIPIENT>", msg: "<YOUR MESSAGE>" }).then (response)->
 
 .catch (e)-> console.log "Error: #{e}"
 
+### REFERENCE
+
+Response: ERROR:13 (then NOT catch)
+Type: String
+Reference: 
+  RESPONSE ERROR:13
+  ERROR No correct phone numbers
+
+Response: ERROR:103
+Type: String
+Reference:
+  ERROR Cannot send sms, account balance is low
+  RESPONSE ERROR:103
+
+###
